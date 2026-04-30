@@ -1,0 +1,931 @@
+destination,country,continent,population,cost_index,safety_index,climate,activities,style,has_beaches,has_mountains,is_urban,is_safe,is_expensive
+"Queenstown, New Zealand",New Zealand,Oceania,15000,85.0,95.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile",Chile,South America,100000,70.0,90.0,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland,Iceland,Europe,350000,120.0,98.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica,Costa Rica,Central America,5100000,75.0,85.0,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Bhutan,Bhutan,Asia,770000,65.0,92.0,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Bali, Indonesia",Indonesia,Asia,4200000,55.0,80.0,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece",Greece,Europe,15000,90.0,88.0,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+Maldives,Maldives,Asia,540000,140.0,85.0,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA",USA,North America,1400000,110.0,87.0,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Phuket, Thailand",Thailand,Asia,420000,60.0,82.0,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Paris, France",France,Europe,2161000,95.0,85.0,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Tokyo, Japan",Japan,Asia,13929000,100.0,98.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Rome, Italy",Italy,Europe,2873000,85.0,83.0,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain",Spain,Europe,1620000,80.0,86.0,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Berlin, Germany",Germany,Europe,3769000,75.0,84.0,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Bangkok, Thailand",Thailand,Asia,10539000,50.0,78.0,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal",Portugal,Europe,505500,65.0,89.0,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Mexico City, Mexico",Mexico,North America,9209944,55.0,70.0,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam",Vietnam,Asia,8054000,45.0,81.0,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Budapest, Hungary",Hungary,Europe,1752000,55.0,87.0,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Dubai, UAE",UAE,Asia,3331000,130.0,91.0,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+Monaco,Monaco,Europe,39000,150.0,95.0,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland",Switzerland,Europe,5000,160.0,97.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA",USA,North America,34000,140.0,88.0,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Capri, Italy",Italy,Europe,14000,120.0,90.0,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Orlando, USA",USA,North America,307573,90.0,85.0,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Vancouver, Canada",Canada,North America,630000,95.0,92.0,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia",Australia,Oceania,5312000,100.0,90.0,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Amsterdam, Netherlands",Netherlands,Europe,900000,95.0,88.0,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Cape Town, South Africa",South Africa,Africa,4337000,70.0,75.0,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+Costa Rica Variant 1,Costa Rica,Central America,7398642,81.47688538100692,92.61514928204012,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+"Patagonia, Chile Variant 2",Chile,South America,65599,85.79212815507391,93.83717364576455,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Bhutan Variant 3,Bhutan,Asia,1131830,60.30525614065048,94.71280021792982,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+Costa Rica Variant 4,Costa Rica,Central America,3485363,77.41962271566034,75.43359877671101,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Costa Rica Variant 5,Costa Rica,Central America,2667618,50.608941849439766,88.01720612519065,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Costa Rica Variant 6,Costa Rica,Central America,7516153,72.48956031914223,84.18066441752615,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Iceland Variant 7,Iceland,Europe,308861,119.75544822505934,99.77775658561217,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Bhutan Variant 8,Bhutan,Asia,852809,58.99746149894088,96.73719910523319,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 9,Bhutan,Asia,562788,72.79192634515005,86.49451121825084,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Costa Rica Variant 10,Costa Rica,Central America,5075402,83.22544912103189,78.89578175014489,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Patagonia, Chile Variant 11",Chile,South America,92515,73.22999797278298,83.03291529563649,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+Bhutan Variant 12,Bhutan,Asia,1131580,67.18638316053863,96.40880519474305,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+Costa Rica Variant 13,Costa Rica,Central America,2780659,64.90914657134893,77.08352893231556,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Patagonia, Chile Variant 14",Chile,South America,103969,74.60816300148637,90.42961735815408,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Costa Rica Variant 15,Costa Rica,Central America,5317750,78.24083969394795,83.07458859791842,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Queenstown, New Zealand Variant 16",New Zealand,Oceania,7734,66.24323227793482,88.1660893055685,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Iceland Variant 17,Iceland,Europe,244594,129.30584400771102,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 18,Iceland,Europe,200915,111.60782476777362,96.45393812074393,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 19",New Zealand,Oceania,16849,80.2082576215471,94.07170511668092,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 20,Bhutan,Asia,946796,73.34795419230429,93.48280692164485,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 21",New Zealand,Oceania,13243,75.6623715908795,98.9210409382697,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Iceland Variant 22,Iceland,Europe,357956,116.013616099848,97.69567956262627,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Bhutan Variant 23,Bhutan,Asia,540323,64.4018273633833,96.80586883209178,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 24,Bhutan,Asia,776599,62.80328112162488,93.78556285755873,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 25,Bhutan,Asia,800677,81.22920499341373,96.11866538487571,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Costa Rica Variant 26,Costa Rica,Central America,7291458,80.01448331524806,90.79093326466014,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Costa Rica Variant 27,Costa Rica,Central America,6648727,88.71862133549777,85.87776646977416,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Costa Rica Variant 28,Costa Rica,Central America,4367118,72.4181520146366,87.30477807710147,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Iceland Variant 29,Iceland,Europe,324487,122.96120277064576,99.30527636089944,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 30,Iceland,Europe,321093,116.04483548419707,96.55431571765028,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica Variant 31,Costa Rica,Central America,3795040,70.16877321248707,82.15085825800799,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Queenstown, New Zealand Variant 32",New Zealand,Oceania,13557,84.8451665998822,94.8631177720742,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Costa Rica Variant 33,Costa Rica,Central America,3834089,55.812287847009586,84.86743062275391,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Queenstown, New Zealand Variant 34",New Zealand,Oceania,22466,80.58233976773987,94.57917457409411,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Queenstown, New Zealand Variant 35",New Zealand,Oceania,17015,88.38022658875141,100.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 36",Chile,South America,148565,77.67296838706405,84.25103711252821,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+Iceland Variant 37,Iceland,Europe,304379,127.27833114165867,94.9046531982252,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Bhutan Variant 38,Bhutan,Asia,871875,70.8685709380027,100.0,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 39",New Zealand,Oceania,9760,104.33839800928118,95.40485402972284,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,True
+Iceland Variant 40,Iceland,Europe,381812,104.49336568933867,98.34281487403014,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica Variant 41,Costa Rica,Central America,7346668,79.28012840989427,72.65150567466202,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Queenstown, New Zealand Variant 42",New Zealand,Oceania,17635,76.62418608236885,98.3859303279105,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 43",Chile,South America,75794,80.43860610918658,92.63224080667348,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 44",New Zealand,Oceania,15249,85.62824599733183,97.50798182673086,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Iceland Variant 45,Iceland,Europe,241047,129.64810582328434,92.67584423568498,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 46,Iceland,Europe,474713,129.2066671571307,96.8663877222532,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica Variant 47,Costa Rica,Central America,2979113,77.93072473298682,81.42824290986816,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Bhutan Variant 48,Bhutan,Asia,603619,63.57009065292473,82.32714902249475,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,False,False
+Iceland Variant 49,Iceland,Europe,403186,127.34501064880045,93.2275136901929,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 50",New Zealand,Oceania,14908,80.37473139798247,89.43751322835276,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Iceland Variant 51,Iceland,Europe,405164,111.32358910020625,98.72930926214154,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 52,Iceland,Europe,397716,125.39609201583666,90.50852181314035,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Bhutan Variant 53,Bhutan,Asia,759791,63.591014455326494,96.36080929676727,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 54,Bhutan,Asia,772030,62.35343166762044,100.0,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 55,Bhutan,Asia,562242,92.83938046489837,91.84406600916579,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 56",New Zealand,Oceania,8154,84.88416680218006,95.95299352557261,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 57,Bhutan,Asia,1065290,71.06129363099085,82.278852031252,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,False,False
+Iceland Variant 58,Iceland,Europe,518116,117.82543023095975,95.62371325799762,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 59",New Zealand,Oceania,12253,87.14093744130204,88.77130610644006,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 60",Chile,South America,143001,58.52280027175,96.94801414073295,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 61,Iceland,Europe,278351,128.8283766050939,95.7534780695211,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 62",New Zealand,Oceania,18037,71.22330632042909,90.31087480042439,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 63",Chile,South America,131011,75.15047686306048,100.0,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Bhutan Variant 64,Bhutan,Asia,534590,63.34690385446437,88.56412412333745,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Costa Rica Variant 65,Costa Rica,Central America,7071747,75.68351251103829,82.9529558471422,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Iceland Variant 66,Iceland,Europe,337959,102.11503495019504,99.78652270968317,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Patagonia, Chile Variant 67",Chile,South America,136040,73.54419585119662,80.59843705773721,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+Bhutan Variant 68,Bhutan,Asia,787127,57.84696290740032,95.39798874467338,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 69,Bhutan,Asia,737094,61.08598187918168,94.19011298710838,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Iceland Variant 70,Iceland,Europe,398100,99.74857413342393,98.93227157384713,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 71",New Zealand,Oceania,13482,100.92981794259464,92.83029200494974,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,True
+"Patagonia, Chile Variant 72",Chile,South America,52535,62.28180922243245,98.30650865304077,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 73",Chile,South America,141521,54.51171320175908,88.2843546794795,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 74",New Zealand,Oceania,17402,88.77296265460409,100.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 75,Bhutan,Asia,708092,57.692585967703465,85.60040133368435,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 76,Bhutan,Asia,477526,58.199956658820575,90.68297077566363,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 77",New Zealand,Oceania,12171,79.50747092635699,100.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 78,Bhutan,Asia,691848,80.43067651859084,98.61631903575618,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 79",Chile,South America,76089,101.87033338072969,90.4208176050396,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,True
+Bhutan Variant 80,Bhutan,Asia,510459,66.9905969557347,88.99891561420603,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 81",New Zealand,Oceania,20507,96.72435782392242,97.65700005480164,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Costa Rica Variant 82,Costa Rica,Central America,4529666,68.84866322228669,95.55658820808125,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Iceland Variant 83,Iceland,Europe,462223,131.37017418633457,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Patagonia, Chile Variant 84",Chile,South America,70668,61.169213415204666,86.50310975801759,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 85",Chile,South America,53896,54.562745973081036,95.5844672010084,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 86",Chile,South America,81897,64.10635243055789,94.24801048510513,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Costa Rica Variant 87,Costa Rica,Central America,6083740,80.29435511653803,84.0805413113599,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+Costa Rica Variant 88,Costa Rica,Central America,4681524,75.50743958855266,87.47299945940857,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Bhutan Variant 89,Bhutan,Asia,962973,47.12328388068218,85.89714947859073,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 90,Bhutan,Asia,568719,76.44371535474684,96.28932329394233,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Iceland Variant 91,Iceland,Europe,211093,120.12146509073226,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 92",New Zealand,Oceania,12300,82.60775202130245,99.26987355533927,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Costa Rica Variant 93,Costa Rica,Central America,7438561,70.88709409340186,89.92011772281545,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Costa Rica Variant 94,Costa Rica,Central America,7395316,75.96995964992718,87.97578512718457,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Bhutan Variant 95,Bhutan,Asia,455612,76.23541781691516,100.0,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 96,Bhutan,Asia,964328,71.24119817052156,95.1417275463214,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 97,Bhutan,Asia,1101815,83.13666575878908,94.02291447558763,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+Costa Rica Variant 98,Costa Rica,Central America,6058953,75.90072586981661,85.4136521790024,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Bhutan Variant 99,Bhutan,Asia,556383,73.86201966129376,90.83148410342997,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 100",Chile,South America,58134,55.51915658502676,82.96268112811723,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+Costa Rica Variant 101,Costa Rica,Central America,3757094,76.86212343894626,89.13095236827134,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Costa Rica Variant 102,Costa Rica,Central America,4468923,54.62924065027861,92.85016140271335,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+"Patagonia, Chile Variant 103",Chile,South America,83025,54.13536381573665,87.88911412524502,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 104",Chile,South America,96866,73.22718560338089,85.86384528223839,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 105",New Zealand,Oceania,17715,79.60254640675406,87.90019183504155,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Costa Rica Variant 106,Costa Rica,Central America,4007131,71.56798763368832,87.28838227214419,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+"Patagonia, Chile Variant 107",Chile,South America,51215,70.6965266451888,94.91752153179233,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 108,Iceland,Europe,496690,128.43574022780345,92.66839260880016,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 109",New Zealand,Oceania,15346,99.51143607795042,99.79635413042604,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Queenstown, New Zealand Variant 110",New Zealand,Oceania,16913,93.72320636720679,95.91671002869175,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Queenstown, New Zealand Variant 111",New Zealand,Oceania,21228,76.2443821196804,93.82575833205347,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 112,Bhutan,Asia,598583,63.42276041745897,85.22471022241034,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 113",Chile,South America,72939,62.01764781968467,83.3107758809581,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+Costa Rica Variant 114,Costa Rica,Central America,7579674,78.4175597577716,94.38085419607943,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+"Queenstown, New Zealand Variant 115",New Zealand,Oceania,13668,69.85425156183763,98.3982983458171,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Bhutan Variant 116,Bhutan,Asia,1086413,72.41963016529465,99.38329312714815,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+"Patagonia, Chile Variant 117",Chile,South America,58274,71.42050091917568,95.18579232472312,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Bhutan Variant 118,Bhutan,Asia,405302,76.79440120721287,89.65412173947648,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 119",New Zealand,Oceania,13151,78.84214155232289,100.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+Iceland Variant 120,Iceland,Europe,469741,118.85460154747382,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 121,Iceland,Europe,221848,123.42456918007514,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Bhutan Variant 122,Bhutan,Asia,1152410,80.16233322933897,93.56229240548974,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+Bhutan Variant 123,Bhutan,Asia,967952,51.49278047058493,88.81382233962061,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Queenstown, New Zealand Variant 124",New Zealand,Oceania,9437,86.20295631711899,97.57219417029374,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Queenstown, New Zealand Variant 125",New Zealand,Oceania,17575,69.65885829264377,100.0,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 126",Chile,South America,99816,82.7546324865362,89.54216969675082,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 127",Chile,South America,135218,90.60747924881987,98.77670421221602,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 128,Iceland,Europe,316219,126.45375949585147,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Patagonia, Chile Variant 129",Chile,South America,130504,72.33465796480243,94.01326127803715,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 130",Chile,South America,85058,52.691268962344324,97.22169395990906,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 131,Iceland,Europe,206850,123.60169002135515,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 132",New Zealand,Oceania,19254,101.28615545571292,88.09949270892554,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,True
+Iceland Variant 133,Iceland,Europe,419174,118.0532973812252,100.0,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 134",New Zealand,Oceania,14881,82.18614893448914,86.67653401902496,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 135",Chile,South America,112080,58.51945093844259,86.98871898558912,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 136,Iceland,Europe,259050,123.66598246096848,93.30060106836322,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica Variant 137,Costa Rica,Central America,4312903,74.37320902726829,89.77571160250619,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,True,False
+Bhutan Variant 138,Bhutan,Asia,1134294,51.34335213516344,94.52053429845267,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,True,True,False
+Bhutan Variant 139,Bhutan,Asia,515079,56.84500926711512,89.20487253383071,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+Bhutan Variant 140,Bhutan,Asia,807510,43.541432401500586,94.56470625395748,Mountain,"['Trekking', 'Buddhist temples', 'Cultural immersion']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 141",Chile,South America,62874,57.815103587134146,84.19837487365348,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+"Patagonia, Chile Variant 142",Chile,South America,129941,63.00274492007414,91.0698995536711,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 143,Iceland,Europe,497305,118.8767195030917,96.89515200233389,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+"Queenstown, New Zealand Variant 144",New Zealand,Oceania,8767,86.78128425761065,95.17817729925228,Temperate,"['Bungee jumping', 'Skydiving', 'Hiking', 'Rafting']",Adventure,False,False,False,True,False
+"Patagonia, Chile Variant 145",Chile,South America,125995,87.80729438145222,91.26239894171792,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+"Patagonia, Chile Variant 146",Chile,South America,53668,78.51402092378828,85.06032077101729,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,True,False
+Iceland Variant 147,Iceland,Europe,361239,118.72082408519233,93.22229779699788,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Iceland Variant 148,Iceland,Europe,314007,122.93666023609465,95.55615088272233,Cold,"['Glacier tours', 'Northern lights', 'Volcano visits']",Adventure,False,True,False,True,True
+Costa Rica Variant 149,Costa Rica,Central America,2652363,64.38737367053409,81.72813326943492,Tropical,"['Zip-lining', 'Surfing', 'Rainforest trekking']",Adventure,False,False,True,False,False
+"Patagonia, Chile Variant 150",Chile,South America,103533,62.97448882879836,84.03369942180787,Cold,"['Trekking', 'Glacier hiking', 'Wildlife watching']",Adventure,False,True,False,False,False
+"Bali, Indonesia Variant 1",Indonesia,Asia,4952229,54.92027358683383,87.39972069445012,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,True,False
+"Hawaii, USA Variant 2",USA,North America,1451949,125.23124077269657,89.69455021842329,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Bali, Indonesia Variant 3",Indonesia,Asia,4470725,39.769237611196466,74.32067251246376,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Hawaii, USA Variant 4",USA,North America,1604284,90.86222419731644,91.70642289030238,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,False
+"Phuket, Thailand Variant 5",Thailand,Asia,348746,53.82909591713125,75.70578979223902,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Hawaii, USA Variant 6",USA,North America,1891144,111.73966329169569,91.53935973621213,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+Maldives Variant 7,Maldives,Asia,737373,134.23228669431668,88.77695612912878,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+Maldives Variant 8,Maldives,Asia,713265,142.85980166188284,93.91556417687528,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Santorini, Greece Variant 9",Greece,Europe,11699,83.37376241054153,90.8529933429658,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 10",USA,North America,1295611,93.72457562116837,87.24042473330691,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,False
+"Bali, Indonesia Variant 11",Indonesia,Asia,4664604,61.38592458777374,71.6923996886552,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 12,Maldives,Asia,773287,148.8192991038324,76.5756393051613,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Santorini, Greece Variant 13",Greece,Europe,14314,109.97008156842946,97.91996063842467,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,True
+"Santorini, Greece Variant 14",Greece,Europe,12335,83.98031321103615,91.8012554731768,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 15",Thailand,Asia,211138,59.283259634425626,76.88090740255473,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 16,Maldives,Asia,458388,141.69729284390374,85.44696959572825,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Hawaii, USA Variant 17",USA,North America,1230920,111.83511823087736,88.76578811611333,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Hawaii, USA Variant 18",USA,North America,1878560,113.37602662075201,84.94061516938767,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Hawaii, USA Variant 19",USA,North America,929118,113.94452142378297,84.89507759589868,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,False,False,True
+Maldives Variant 20,Maldives,Asia,612229,137.25955642768972,88.04056945609166,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Santorini, Greece Variant 21",Greece,Europe,13386,87.49877398925489,94.5052621658115,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+Maldives Variant 22,Maldives,Asia,607014,116.73648286500223,92.55401609057263,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Bali, Indonesia Variant 23",Indonesia,Asia,3075293,52.60821333969831,84.11552487872504,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Phuket, Thailand Variant 24",Thailand,Asia,590718,51.15184058082015,83.43470630612148,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 25,Maldives,Asia,608962,131.251932862553,82.99813563416224,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Phuket, Thailand Variant 26",Thailand,Asia,418077,64.79580924433087,89.91515396978268,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 27",Thailand,Asia,273703,49.0860956270653,77.91499280369553,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Bali, Indonesia Variant 28",Indonesia,Asia,2240836,70.09771312459624,82.01017240023461,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 29,Maldives,Asia,677503,140.87035228146672,80.26329310028937,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 30",USA,North America,1339800,110.55155876418613,99.52844604820986,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Phuket, Thailand Variant 31",Thailand,Asia,414270,74.14251262612413,79.63205609511445,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 32,Maldives,Asia,616219,144.134349032237,94.38397906279033,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+Maldives Variant 33,Maldives,Asia,593475,128.22214458507648,81.59869206403046,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Santorini, Greece Variant 34",Greece,Europe,21709,92.7996862631982,82.37255476350812,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,False,False
+"Santorini, Greece Variant 35",Greece,Europe,16671,91.09394794604893,91.62883311949346,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 36",USA,North America,1806118,103.97352194694685,93.50924584080047,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Bali, Indonesia Variant 37",Indonesia,Asia,3881348,56.838833519051576,80.50047721289849,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 38,Maldives,Asia,513453,165.38691101737487,87.61976333553896,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Phuket, Thailand Variant 39",Thailand,Asia,369308,52.03497041342413,85.3038761586107,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 40",Indonesia,Asia,2119454,44.87895624739832,71.72571664067115,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Bali, Indonesia Variant 41",Indonesia,Asia,5726776,54.3452264624254,84.037086805414,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 42,Maldives,Asia,668250,124.97234982369396,83.69632417554091,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 43",USA,North America,1977849,114.7168810519784,79.35117848413596,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Hawaii, USA Variant 44",USA,North America,1286495,107.69065469791322,90.48103182406709,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+Maldives Variant 45,Maldives,Asia,611422,137.31111309445168,79.46737045629165,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 46",USA,North America,1449097,104.216860770727,82.4472107763006,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Phuket, Thailand Variant 47",Thailand,Asia,376873,73.49704627310695,80.35191329096796,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Phuket, Thailand Variant 48",Thailand,Asia,472489,70.86105526769656,80.02708840881702,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 49,Maldives,Asia,305482,137.45022782579144,92.51996494291345,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Santorini, Greece Variant 50",Greece,Europe,15516,84.36233557876965,70.15897350320058,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,False,False
+Maldives Variant 51,Maldives,Asia,353829,142.89842264168468,83.72589365813818,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+Maldives Variant 52,Maldives,Asia,471587,148.33223877620742,78.3673049194512,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 53",USA,North America,1821049,107.43182972074268,92.12143290889695,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Bali, Indonesia Variant 54",Indonesia,Asia,3032283,62.21672064043235,74.35474114391386,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Phuket, Thailand Variant 55",Thailand,Asia,459920,68.12560596363065,72.59654115362744,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 56,Maldives,Asia,622482,136.49318472121212,83.85391974223204,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+Maldives Variant 57,Maldives,Asia,789830,123.0673382529021,80.49733557406428,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Santorini, Greece Variant 58",Greece,Europe,7695,73.302208279316,96.82343467131359,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 59",Greece,Europe,21159,75.01340598493046,93.69578786430839,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 60",Greece,Europe,12945,101.8521029151089,84.64980403222327,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,False,True
+"Bali, Indonesia Variant 61",Indonesia,Asia,3931731,57.11017467202618,79.51643444064804,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Hawaii, USA Variant 62",USA,North America,896158,109.62365297575151,92.5165094100826,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,False,True,True
+"Bali, Indonesia Variant 63",Indonesia,Asia,4136069,72.01429243526172,80.43849741430869,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece Variant 64",Greece,Europe,17002,83.77145496898717,85.90928482995363,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+Maldives Variant 65,Maldives,Asia,497720,151.03025266777783,90.75712687232367,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Santorini, Greece Variant 66",Greece,Europe,15444,89.91763432937921,94.79578813605279,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 67",Greece,Europe,15812,100.29155637325644,90.36298741206521,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,True
+"Phuket, Thailand Variant 68",Thailand,Asia,214618,62.56029734313876,86.91345491972757,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 69",USA,North America,1586337,137.60761935726185,85.92157236549372,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Bali, Indonesia Variant 70",Indonesia,Asia,3858836,58.83613953816771,68.15139295257777,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece Variant 71",Greece,Europe,9994,86.5198691370316,88.99279181448146,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 72",USA,North America,1779380,118.24415388257461,86.37693109328265,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+Maldives Variant 73,Maldives,Asia,430445,130.50601111168058,98.16191032418695,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Phuket, Thailand Variant 74",Thailand,Asia,413177,62.977602509183974,73.4022949664389,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 75,Maldives,Asia,591342,139.94663529163336,81.70615587109322,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Phuket, Thailand Variant 76",Thailand,Asia,274962,55.19877410203706,93.49234430867416,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 77",Indonesia,Asia,2415578,54.65011509503038,88.85400317817755,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,True,False
+Maldives Variant 78,Maldives,Asia,593074,132.0304856422545,84.62114586389274,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Santorini, Greece Variant 79",Greece,Europe,19491,79.12219064738238,92.64741253672385,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 80",Greece,Europe,9046,99.85722716823564,85.02767725930889,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 81",Indonesia,Asia,2674638,54.25566570899954,83.10336048775339,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Hawaii, USA Variant 82",USA,North America,1458661,113.80197851005963,90.05292872641911,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Phuket, Thailand Variant 83",Thailand,Asia,528795,68.37697438400488,88.83992653721207,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 84",Indonesia,Asia,5894128,68.5484517237325,85.14321315151533,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,True,False
+"Bali, Indonesia Variant 85",Indonesia,Asia,6065049,63.184847346385396,80.66923827123,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Phuket, Thailand Variant 86",Thailand,Asia,517029,58.07220212761392,81.22981642016634,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 87,Maldives,Asia,779903,151.29069437535142,84.59792113145504,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+Maldives Variant 88,Maldives,Asia,442314,125.9484007763554,87.50516671758672,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Hawaii, USA Variant 89",USA,North America,1373486,110.79657857527587,92.06658018027677,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Santorini, Greece Variant 90",Greece,Europe,18371,88.13128355838641,85.80134470862913,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 91",Indonesia,Asia,4361286,67.30161313457147,84.18030525579762,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Bali, Indonesia Variant 92",Indonesia,Asia,5821106,41.50536428574476,82.92751730429289,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 93,Maldives,Asia,739853,147.13399590205447,85.23508606561873,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+Maldives Variant 94,Maldives,Asia,307816,165.97704643234383,81.74814527964986,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 95",USA,North America,2077716,105.54497478599228,94.2669223855885,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Hawaii, USA Variant 96",USA,North America,1732615,105.79813182904142,85.59107695569746,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Santorini, Greece Variant 97",Greece,Europe,11944,70.6632169889244,81.96302084176813,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,False,False
+"Hawaii, USA Variant 98",USA,North America,1005555,108.34276946853385,82.8720757849127,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+Maldives Variant 99,Maldives,Asia,758010,138.5081084024128,81.702932942745,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Phuket, Thailand Variant 100",Thailand,Asia,482851,62.89168643907818,94.27650069955448,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 101",Greece,Europe,8204,85.84132658588216,87.47975121600182,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 102",Greece,Europe,19193,85.0403095367353,87.15942552187353,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 103",Indonesia,Asia,4276693,61.31446293533938,92.26921087072854,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,True,False
+Maldives Variant 104,Maldives,Asia,483970,147.95906504847474,90.242654692538,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+Maldives Variant 105,Maldives,Asia,710549,132.9478926367022,81.48189968536776,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Bali, Indonesia Variant 106",Indonesia,Asia,4590347,46.598899214166615,80.8234891371857,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Bali, Indonesia Variant 107",Indonesia,Asia,3742913,53.19009261060276,71.1906812898013,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 108,Maldives,Asia,786051,142.85865390724905,86.67228394993512,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Bali, Indonesia Variant 109",Indonesia,Asia,4413600,53.2305277250595,76.00851377730773,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 110,Maldives,Asia,660646,131.59091201952145,84.95860962724976,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 111",USA,North America,853256,119.07494768417256,87.17947274883849,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,False,True,True
+Maldives Variant 112,Maldives,Asia,457816,146.81891489626312,94.23353662868017,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Phuket, Thailand Variant 113",Thailand,Asia,518242,71.01656713996367,82.31808879975085,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Hawaii, USA Variant 114",USA,North America,1890814,114.05617593140379,90.57503506900571,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+Maldives Variant 115,Maldives,Asia,398892,130.71730548583548,87.97184404461585,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Phuket, Thailand Variant 116",Thailand,Asia,579965,58.328819196831454,82.73356843216662,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+Maldives Variant 117,Maldives,Asia,393457,155.67307866638953,86.7155454147588,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Hawaii, USA Variant 118",USA,North America,708940,118.1775269587605,79.55303470175348,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,False,False,True
+"Bali, Indonesia Variant 119",Indonesia,Asia,4451346,52.16890998764747,75.58986329396286,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Phuket, Thailand Variant 120",Thailand,Asia,537535,62.665805466949365,79.99310121333886,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Santorini, Greece Variant 121",Greece,Europe,13983,86.4885930617916,93.53694214169357,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 122",Thailand,Asia,253054,61.75545829890508,84.04256174188713,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Santorini, Greece Variant 123",Greece,Europe,21709,94.90419571702766,84.98109880468965,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,False,False
+"Bali, Indonesia Variant 124",Indonesia,Asia,4545115,66.95046628924842,72.38406547608113,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+Maldives Variant 125,Maldives,Asia,730303,160.20401963682113,81.30062861768306,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Hawaii, USA Variant 126",USA,North America,1761568,108.68961593001004,76.82379879687248,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+Maldives Variant 127,Maldives,Asia,406354,146.7829941119204,84.75985234642911,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+Maldives Variant 128,Maldives,Asia,513748,144.40014450053332,82.48972887823695,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,False,True
+"Phuket, Thailand Variant 129",Thailand,Asia,335317,64.63723857390433,84.88908445440569,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Hawaii, USA Variant 130",USA,North America,1616315,107.77587221544434,81.26520685633281,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Phuket, Thailand Variant 131",Thailand,Asia,592000,56.56311652062217,89.74604738263152,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+Maldives Variant 132,Maldives,Asia,491040,137.5876394214367,86.76027698257148,Tropical,"['Snorkeling', 'Private villas', 'Spa resorts']",Relaxation,False,False,False,True,True
+"Phuket, Thailand Variant 133",Thailand,Asia,294150,64.02768291993094,85.4493162489815,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Santorini, Greece Variant 134",Greece,Europe,20465,95.05501810611491,87.85537557912565,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 135",Indonesia,Asia,5748217,62.077155412496204,83.61270040145038,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece Variant 136",Greece,Europe,18915,80.55631222456947,89.6162288145449,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 137",Thailand,Asia,592971,76.3811274954764,89.5051942000223,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 138",USA,North America,1302428,109.59842049355656,79.84612448940976,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Phuket, Thailand Variant 139",Thailand,Asia,322977,53.65394964706643,86.97876118340677,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 140",Thailand,Asia,272823,79.62822634045459,80.07469869070246,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,False,False
+"Santorini, Greece Variant 141",Greece,Europe,14699,74.16097176514276,91.80207328072149,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Phuket, Thailand Variant 142",Thailand,Asia,527964,69.39848103529688,86.23006772335634,Tropical,"['Island hopping', 'Massage', 'Beach bars']",Relaxation,True,False,False,True,False
+"Bali, Indonesia Variant 143",Indonesia,Asia,3116589,79.02026281835455,79.8869845527759,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Hawaii, USA Variant 144",USA,North America,1184423,110.62502733249475,83.09762996837328,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,False,True
+"Bali, Indonesia Variant 145",Indonesia,Asia,3572633,44.983799901050844,78.59449853557022,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece Variant 146",Greece,Europe,17841,84.28821010217203,90.86291390678079,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 147",USA,North America,846394,123.99355436586002,91.62316841456385,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,False,True,True
+"Bali, Indonesia Variant 148",Indonesia,Asia,6032091,55.59630369920174,76.76531611147213,Tropical,"['Beach lounging', 'Spa treatments', 'Yoga retreats']",Relaxation,True,False,True,False,False
+"Santorini, Greece Variant 149",Greece,Europe,21528,91.46248007818856,90.6106017862754,Mediterranean,"['Sunset watching', 'Wine tasting', 'Beach relaxation']",Relaxation,True,False,False,True,False
+"Hawaii, USA Variant 150",USA,North America,1175230,111.14533366215464,91.75072735499415,Tropical,"['Beach activities', 'Volcano tours', 'Luau experiences']",Relaxation,True,False,True,True,True
+"Tokyo, Japan Variant 1",Japan,Asia,17882503,94.20299088526373,97.87947560923749,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 2",Spain,Europe,1995175,73.48581996385552,83.58057082972839,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Berlin, Germany Variant 3",Germany,Europe,4205231,71.46573256264004,73.8666893512833,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 4",Germany,Europe,2570902,81.18686547847906,89.6466221876975,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Rome, Italy Variant 5",Italy,Europe,1900985,90.05991109959534,73.01294328270247,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Rome, Italy Variant 6",Italy,Europe,3304885,91.13517972730416,77.88603717400797,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 7",Germany,Europe,3461448,79.82271890702943,81.90050150110439,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Paris, France Variant 8",France,Europe,2956836,104.32879084328621,89.36579274309574,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 9",Spain,Europe,1828599,88.73783040960116,89.84061917567358,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 10",Spain,Europe,874976,82.24451818559972,91.23549151306077,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,True,False
+"Barcelona, Spain Variant 11",Spain,Europe,857619,95.6870901101093,78.28231094082443,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,False,False
+"Tokyo, Japan Variant 12",Japan,Asia,18009585,91.11789244552752,91.18480170724439,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Rome, Italy Variant 13",Italy,Europe,3226282,98.76803492878929,86.88508047878645,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Rome, Italy Variant 14",Italy,Europe,3665948,101.56988469704775,75.29790664055481,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,True
+"Tokyo, Japan Variant 15",Japan,Asia,10273240,99.74445929008554,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 16",Spain,Europe,1466133,95.42255946048499,95.02248544180804,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 17",Spain,Europe,1770580,76.37559058596868,80.40165052686928,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Paris, France Variant 18",France,Europe,1942838,112.16765480314388,92.6880578003702,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 19",Spain,Europe,2381110,64.44101349510105,84.63802014750095,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Rome, Italy Variant 20",Italy,Europe,2706436,79.08696784907968,73.23907389298277,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 21",Spain,Europe,2152791,64.4341810134025,83.85942419517043,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Rome, Italy Variant 22",Italy,Europe,4161779,77.57980258443021,76.47672302096288,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 23",Spain,Europe,869407,88.47079009985035,92.1125045744344,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,True,False
+"Berlin, Germany Variant 24",Germany,Europe,4831067,70.32287227859143,92.95571893431313,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 25",Spain,Europe,1684647,76.78376863954037,83.74497484935036,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Tokyo, Japan Variant 26",Japan,Asia,7512516,98.69084027230251,92.82522567733933,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 27",Germany,Europe,2218265,76.90937750773315,79.52718383793108,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 28",Spain,Europe,1050315,89.16327674702481,87.73244237948997,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Rome, Italy Variant 29",Italy,Europe,2840956,76.28866235962484,85.01695011677039,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 30",Germany,Europe,2425511,75.63856301334143,84.60294966945355,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 31",Japan,Asia,9588014,92.79209581063562,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 32",Germany,Europe,5515354,83.05192674780949,77.90513738731937,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 33",Japan,Asia,12178079,101.83771134623042,98.83384809798258,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Paris, France Variant 34",France,Europe,1146166,96.97565990172382,87.24614217459873,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Paris, France Variant 35",France,Europe,2378417,103.39184867716313,94.07686342413453,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 36",Spain,Europe,1068045,63.86531339731598,90.65504732163927,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Paris, France Variant 37",France,Europe,1959828,98.21357215450273,87.10960377117642,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 38",Germany,Europe,2972556,78.02398844238225,80.07323428743973,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 39",Spain,Europe,1891501,85.97400069849859,89.5058637115545,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Paris, France Variant 40",France,Europe,1765959,91.80443237680919,89.74088412681151,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Paris, France Variant 41",France,Europe,1790131,108.38115216447682,92.93186940079508,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Berlin, Germany Variant 42",Germany,Europe,3318301,97.12191309384686,89.55993856905323,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Paris, France Variant 43",France,Europe,2040890,95.41689037131941,83.83800446749764,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 44",Japan,Asia,17541407,131.419669772878,98.165135214829,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Tokyo, Japan Variant 45",Japan,Asia,13639024,86.10427533236404,89.77300626521554,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 46",Germany,Europe,2811936,50.8354823478751,81.33448037567743,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 47",Japan,Asia,16930572,113.18764615727194,98.43429581580901,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Rome, Italy Variant 48",Italy,Europe,1458228,92.58928589786765,84.40595711984687,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Paris, France Variant 49",France,Europe,2495291,82.82695144136987,82.58976602585892,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 50",Germany,Europe,3209765,74.66313473091284,79.24825908449132,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 51",Germany,Europe,2958185,84.7090073193431,80.9127669377045,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Rome, Italy Variant 52",Italy,Europe,3105517,87.54249204134929,80.60294070590953,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 53",Japan,Asia,10761879,90.1751260646169,96.87683425001488,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Rome, Italy Variant 54",Italy,Europe,1790518,88.29315785151776,84.9741287220385,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Paris, France Variant 55",France,Europe,2306461,108.97414703060372,84.62427916594991,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,True
+"Paris, France Variant 56",France,Europe,1887654,84.98231721435346,85.34235684264335,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 57",Germany,Europe,4151974,75.48860070325705,84.20295845601942,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Paris, France Variant 58",France,Europe,2795780,84.40607869530056,87.38776858062823,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Paris, France Variant 59",France,Europe,2895440,92.2467677649457,88.75687993537973,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Tokyo, Japan Variant 60",Japan,Asia,10525379,110.6985049870104,93.43525963487996,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 61",Spain,Europe,1496455,73.26509375756132,87.39497081111901,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 62",Spain,Europe,1052520,68.57873456703827,84.74840644133504,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Paris, France Variant 63",France,Europe,2672884,91.45892358552013,87.26768916872588,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Paris, France Variant 64",France,Europe,1466121,84.36598354482147,81.29976541088614,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Rome, Italy Variant 65",Italy,Europe,2102884,99.59493603383521,74.5734453061903,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Paris, France Variant 66",France,Europe,3215104,99.14541814379788,81.13847987336763,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Rome, Italy Variant 67",Italy,Europe,2708425,102.08546369766887,80.93737673741427,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,True
+"Rome, Italy Variant 68",Italy,Europe,4284378,90.68983079185276,91.14198311564269,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 69",Germany,Europe,2183831,69.18319086051356,78.92621634653567,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Rome, Italy Variant 70",Italy,Europe,2423549,74.77564620454234,93.39972961845261,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 71",Spain,Europe,919532,73.7818169949361,89.50686532419611,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,True,False
+"Berlin, Germany Variant 72",Germany,Europe,2906454,91.89636997694697,88.35288107907121,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 73",Spain,Europe,1335420,92.27668992473292,79.95179490654397,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Barcelona, Spain Variant 74",Spain,Europe,1882179,96.72572386837703,88.09509504683022,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 75",Spain,Europe,907430,85.58326912521723,86.38002695706206,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,True,False
+"Berlin, Germany Variant 76",Germany,Europe,4277664,68.24013727025603,86.61388975232946,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Tokyo, Japan Variant 77",Japan,Asia,8311106,115.83465025384093,96.46609803564314,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Paris, France Variant 78",France,Europe,1730643,94.79981100655571,86.91805985393967,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 79",Germany,Europe,2336135,83.6531690202038,87.82048039248137,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Paris, France Variant 80",France,Europe,2900133,118.19329539981695,86.96658919697185,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Tokyo, Japan Variant 81",Japan,Asia,17939186,102.98052210107176,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 82",Spain,Europe,2076885,69.29405661764397,81.55126949106716,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Tokyo, Japan Variant 83",Japan,Asia,12270188,87.79682622784225,94.4065903727836,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Paris, France Variant 84",France,Europe,1740738,83.96633393826127,74.23554703523759,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 85",Spain,Europe,2224805,84.49010963418937,83.34746188530922,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Barcelona, Spain Variant 86",Spain,Europe,2189308,80.81829358547564,85.50555173404429,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Rome, Italy Variant 87",Italy,Europe,3373774,102.7421250413802,84.30132779183863,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,True
+"Rome, Italy Variant 88",Italy,Europe,3706257,79.9287693994341,81.81822631455502,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 89",Germany,Europe,1970786,70.6588982050402,81.2811028338833,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 90",Spain,Europe,1738327,81.23230272914662,89.54730908714927,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Berlin, Germany Variant 91",Germany,Europe,5133432,74.74973041254856,88.08883149600143,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 92",Germany,Europe,3081276,67.00461078767316,85.75773979412945,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 93",Germany,Europe,1981785,80.077576703115,84.26994209222896,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 94",Spain,Europe,1315142,51.11728794807276,87.46634657066751,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 95",Spain,Europe,2189346,63.435671348288494,92.28218171172594,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Rome, Italy Variant 96",Italy,Europe,3058139,79.37399718346308,79.99208159292861,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Rome, Italy Variant 97",Italy,Europe,3603470,70.04121801944582,87.4105239112044,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Rome, Italy Variant 98",Italy,Europe,1926819,77.30231122119123,80.1977245086003,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 99",Spain,Europe,1811243,67.25631253620621,89.1303821275391,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Berlin, Germany Variant 100",Germany,Europe,4203262,84.49554135441323,76.57551015775049,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 101",Spain,Europe,2183785,88.77078769350588,89.3678257159335,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Berlin, Germany Variant 102",Germany,Europe,3219616,55.56012570514867,97.49857070209755,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 103",Germany,Europe,3343399,72.67328091480002,78.76761028687785,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 104",Germany,Europe,4750032,76.0884563020912,78.40684285900596,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Paris, France Variant 105",France,Europe,1779584,99.16236366927595,90.3809166066516,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 106",Germany,Europe,4905493,74.84690150827005,86.89645749800545,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Rome, Italy Variant 107",Italy,Europe,2200290,84.89884088531089,94.09210712057364,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Berlin, Germany Variant 108",Germany,Europe,3724680,70.5671774880849,79.5759864298655,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 109",Spain,Europe,1865771,84.42806381020915,92.02963403808295,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Berlin, Germany Variant 110",Germany,Europe,3616154,77.84889892572198,85.03546931116476,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Paris, France Variant 111",France,Europe,1301245,99.65045461015183,85.83326414281757,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Tokyo, Japan Variant 112",Japan,Asia,13059873,106.7792587133927,95.56044295927148,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Tokyo, Japan Variant 113",Japan,Asia,10489350,105.88199934971857,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Tokyo, Japan Variant 114",Japan,Asia,12345953,84.90578086593237,96.62136373766337,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Paris, France Variant 115",France,Europe,1224535,83.08709860712193,85.31342698443437,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 116",Spain,Europe,1639799,77.71017138509754,86.45021418826643,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Paris, France Variant 117",France,Europe,2693053,105.93068586613211,87.87684813596188,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Rome, Italy Variant 118",Italy,Europe,1471287,71.52873710470304,78.14192980744674,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Rome, Italy Variant 119",Italy,Europe,4225464,74.2333906547567,74.10684583395098,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 120",Germany,Europe,4373180,67.18287479388032,88.39796293993183,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 121",Spain,Europe,2266219,73.16406199835076,89.54766788653687,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Paris, France Variant 122",France,Europe,1905871,91.77320161157864,83.74583491772476,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 123",Spain,Europe,2064906,84.55887772081607,96.82501172450542,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Tokyo, Japan Variant 124",Japan,Asia,11452639,99.26931031592927,92.66491706791062,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,False
+"Tokyo, Japan Variant 125",Japan,Asia,15348108,115.28468426412532,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 126",Spain,Europe,1063754,71.70962541646793,87.00850279958273,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Rome, Italy Variant 127",Italy,Europe,3016914,73.85524173128654,81.15510277445038,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 128",Spain,Europe,1199922,77.78746376414227,84.6159335005554,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Paris, France Variant 129",France,Europe,2476097,103.60473488359746,82.08461280715531,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,True
+"Paris, France Variant 130",France,Europe,1638970,116.289465557456,88.44339011842713,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,True,True
+"Berlin, Germany Variant 131",Germany,Europe,5572079,78.7249570979,91.99561167574687,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Barcelona, Spain Variant 132",Spain,Europe,897250,91.24798644593191,82.00302961919282,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,False,False
+"Paris, France Variant 133",France,Europe,3106195,98.99687951752642,81.74321553104086,Temperate,"['Museums', 'Historical sites', 'Fine dining']",Culture,False,False,True,False,False
+"Rome, Italy Variant 134",Italy,Europe,4209317,73.0390276817562,82.80130547596913,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 135",Spain,Europe,1997138,103.0041008544697,91.37716531552519,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,True
+"Rome, Italy Variant 136",Italy,Europe,2291356,103.11375028664982,86.11774428450819,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 137",Spain,Europe,1840791,73.77621805009197,88.39044998313727,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Tokyo, Japan Variant 138",Japan,Asia,14737471,105.96643833533713,100.0,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Rome, Italy Variant 139",Italy,Europe,4285969,82.90976742713974,78.7473977289535,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 140",Japan,Asia,16123657,110.99904950917883,93.70947227615903,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Rome, Italy Variant 141",Italy,Europe,1976695,96.96631486645651,79.95108547840309,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Barcelona, Spain Variant 142",Spain,Europe,1659137,82.30933440829995,87.18212338131224,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,True,False
+"Barcelona, Spain Variant 143",Spain,Europe,2018088,65.50143434519094,80.46845909385829,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,True,False,False
+"Rome, Italy Variant 144",Italy,Europe,3855480,87.31512739295572,66.2419474154766,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Tokyo, Japan Variant 145",Japan,Asia,12094683,117.26963851233405,96.00181907192699,Temperate,"['Temples', 'Modern culture', 'Cuisine exploration']",Culture,False,False,True,True,True
+"Rome, Italy Variant 146",Italy,Europe,1832465,81.06018636697578,80.9408692284054,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,False,False
+"Berlin, Germany Variant 147",Germany,Europe,2234981,69.48141854107553,96.79099642834126,Temperate,"['Historical sites', 'Street art', 'Nightlife']",Culture,False,False,True,True,False
+"Rome, Italy Variant 148",Italy,Europe,1622824,100.42109952567876,93.03046444079561,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,True
+"Barcelona, Spain Variant 149",Spain,Europe,895542,105.12407576578319,84.3057016495032,Mediterranean,"['Gaudi architecture', 'Beaches', 'Nightlife']",Culture,True,False,False,False,True
+"Rome, Italy Variant 150",Italy,Europe,2211694,84.92957201075265,89.56204310871315,Mediterranean,"['Ancient ruins', 'Art galleries', 'Food tours']",Culture,False,False,True,True,False
+"Mexico City, Mexico Variant 1",Mexico,North America,5144222,66.15902053365362,66.75367210962038,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 2",Hungary,Europe,2257653,30.0,91.0046831981473,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 3",Vietnam,Asia,5012622,36.22357580240425,84.91246747350311,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 4",Vietnam,Asia,4530715,51.17670368265749,84.49124956888907,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 5",Thailand,Asia,15103581,39.758131756707954,87.27046283167094,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 6",Vietnam,Asia,8023124,50.45121747588932,76.2829224249581,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 7",Vietnam,Asia,7118390,63.84586305934609,88.71621764136094,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 8",Thailand,Asia,11229831,57.179903099161706,86.37773696772243,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,True,False
+"Budapest, Hungary Variant 9",Hungary,Europe,2098318,49.1658764413187,80.49549121742938,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 10",Hungary,Europe,1718547,61.93855763007922,86.485822398878,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 11",Vietnam,Asia,5102047,47.05686374960684,79.1077297407677,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 12",Portugal,Europe,712446,62.25771642945469,84.00343621174932,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,False,False
+"Hanoi, Vietnam Variant 13",Vietnam,Asia,9318116,43.99845923520047,79.98163124911517,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 14",Vietnam,Asia,6247647,53.8633019606159,77.53669221084948,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 15",Portugal,Europe,390220,61.96169152013784,96.84052397359105,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Budapest, Hungary Variant 16",Hungary,Europe,1345779,56.739160838337625,86.15374557971846,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 17",Mexico,North America,5182004,30.757597397270583,74.42022698180524,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 18",Portugal,Europe,623002,54.36890963350535,89.69043576566816,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Budapest, Hungary Variant 19",Hungary,Europe,967555,39.374541431134574,84.35473661326853,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,False,False,False
+"Bangkok, Thailand Variant 20",Thailand,Asia,10480836,41.6225201840624,81.05404916877387,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 21",Thailand,Asia,10158884,50.79993380559144,79.73953058162442,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 22",Thailand,Asia,7198299,41.768819386519205,77.17910294189747,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 23",Thailand,Asia,10785516,47.044587598534505,78.76157756788312,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 24",Thailand,Asia,10997849,49.17352214961811,73.85491540170818,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 25",Thailand,Asia,9786837,54.04257195013452,73.57992272720396,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 26",Thailand,Asia,12320326,30.0,72.95134647645031,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 27",Hungary,Europe,2188745,64.44490972391196,83.55385464891572,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 28",Vietnam,Asia,6894009,30.0,80.81733325040695,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 29",Hungary,Europe,1164565,66.61933813456096,83.15817526342964,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 30",Hungary,Europe,2031670,50.0250134159486,83.55748246036413,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 31",Hungary,Europe,1666571,63.83109777147159,86.610814014936,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 32",Thailand,Asia,9387386,44.81597100584478,84.03832724878123,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 33",Thailand,Asia,9457502,48.72868558348002,73.6140739968915,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 34",Mexico,North America,6481649,36.69231551605134,71.00325901977844,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 35",Vietnam,Asia,10127759,35.56616950630064,75.38049266567454,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 36",Thailand,Asia,9442632,50.678555105274036,82.2638683756111,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 37",Portugal,Europe,479013,52.71199581447863,90.0637241922987,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Mexico City, Mexico Variant 38",Mexico,North America,7949109,80.43667895301527,70.91403454602668,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 39",Hungary,Europe,2159576,49.49308428469687,91.7214482109114,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 40",Mexico,North America,12731977,55.24219456672758,77.06110277707714,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 41",Thailand,Asia,9672282,39.376064718531204,80.14153548603824,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 42",Portugal,Europe,468846,76.87386051564751,100.0,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Bangkok, Thailand Variant 43",Thailand,Asia,13942659,44.760034265446436,71.71394362571232,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 44",Mexico,North America,6331025,57.709745388461926,71.5209645977671,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 45",Portugal,Europe,308733,67.76709043904985,92.66070281742557,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Bangkok, Thailand Variant 46",Thailand,Asia,9040335,62.96994546561109,77.88565968850558,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 47",Vietnam,Asia,8258852,40.42961664137603,79.49057747404724,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 48",Portugal,Europe,303622,59.34715223600918,86.94645670448791,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Bangkok, Thailand Variant 49",Thailand,Asia,13064895,54.47359302190611,71.93036309673718,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 50",Thailand,Asia,14137515,54.037300903366095,77.87902196804542,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 51",Mexico,North America,4891544,50.10905214081093,71.48654822840422,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 52",Mexico,North America,10926007,50.97933255483329,72.62132338821584,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 53",Mexico,North America,10998059,35.638846863213786,70.62923484809679,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 54",Hungary,Europe,934147,65.28682610696391,80.41625576588972,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,False,False,False
+"Hanoi, Vietnam Variant 55",Vietnam,Asia,11043680,52.236105872288746,84.33730390819656,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 56",Hungary,Europe,2450780,63.592572249998405,88.73088872916371,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 57",Mexico,North America,9766598,53.67366253617426,65.12735347664679,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 58",Vietnam,Asia,7100502,42.617215393004166,75.93131004292069,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 59",Mexico,North America,8496619,52.781390962046935,72.10842234132222,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 60",Thailand,Asia,8349187,51.959750338646025,79.58489708886704,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 61",Thailand,Asia,14116578,50.388655620485636,78.77157915816794,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 62",Thailand,Asia,8481271,44.64036554885952,82.04028899140573,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 63",Vietnam,Asia,4933722,48.67287313401341,90.19091838397561,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 64",Thailand,Asia,7818819,49.805803941122676,76.48410108582863,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 65",Thailand,Asia,13959272,56.55610398252892,85.63861809761882,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 66",Mexico,North America,12920584,59.28312962473496,74.49567856843746,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 67",Thailand,Asia,15692869,55.591592889031844,89.26443441109875,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 68",Thailand,Asia,8276174,33.73988908223447,75.52070794631594,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 69",Portugal,Europe,542578,52.74066635015797,92.93045320370555,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Budapest, Hungary Variant 70",Hungary,Europe,1925410,57.65155527298887,90.20965267480776,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 71",Thailand,Asia,5951235,44.820873499462095,79.20524238554083,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 72",Vietnam,Asia,7767545,41.114258967608734,76.57591816655176,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 73",Vietnam,Asia,7597982,61.122782579886454,87.57457226792023,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 74",Vietnam,Asia,10380013,59.01565737515327,86.54527023965794,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 75",Vietnam,Asia,4866426,42.43412069817826,68.98623032550157,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 76",Vietnam,Asia,11682577,59.790789734057604,84.05571827324772,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 77",Thailand,Asia,8104058,59.06857695125735,76.92250898840065,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 78",Portugal,Europe,435666,58.882309090947146,88.81481601475794,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Mexico City, Mexico Variant 79",Mexico,North America,7154416,40.93682536328166,69.58447213685653,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 80",Mexico,North America,8726128,79.84467368641432,66.4850126986508,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 81",Hungary,Europe,885646,65.8447958307307,84.11234953246223,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,False,False,False
+"Bangkok, Thailand Variant 82",Thailand,Asia,7572375,44.91544659970256,77.42413536115029,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 83",Thailand,Asia,9453641,52.131966282376894,74.2401533413059,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 84",Hungary,Europe,1480830,65.76007138598598,87.10655824335971,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Budapest, Hungary Variant 85",Hungary,Europe,2059336,54.359296998715024,84.04862258320108,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 86",Hungary,Europe,1567297,36.96860323744055,79.07932028497255,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 87",Hungary,Europe,2126985,39.188092979678665,91.47519157038057,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Budapest, Hungary Variant 88",Hungary,Europe,2134688,63.10703655349994,89.6758673552455,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 89",Thailand,Asia,11632900,42.91711537398337,79.71407581201312,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 90",Thailand,Asia,10077776,41.118521042726236,76.46559425656314,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 91",Vietnam,Asia,8453346,42.94787025500804,85.28941553065715,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 92",Mexico,North America,7872395,56.68654671966728,72.20970324784705,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 93",Thailand,Asia,12082437,52.32360277683866,82.56797395889599,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 94",Portugal,Europe,322949,69.51632701649596,83.6255047134544,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,False,False
+"Budapest, Hungary Variant 95",Hungary,Europe,2457098,55.583510042854776,83.27607896636736,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 96",Portugal,Europe,258667,48.02902615013748,85.77215285675763,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Bangkok, Thailand Variant 97",Thailand,Asia,6158911,57.98254071425445,77.0206958995608,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 98",Thailand,Asia,7546465,63.35805666491494,77.29582818597072,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 99",Vietnam,Asia,7147059,42.040231565942655,86.41803039915092,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Budapest, Hungary Variant 100",Hungary,Europe,1358467,65.00582318042979,83.64689895461677,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 101",Vietnam,Asia,5849451,35.71020045677375,70.21949484312591,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 102",Vietnam,Asia,11409580,30.0,77.5340658638179,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 103",Portugal,Europe,439811,64.21729336196586,87.2719524265165,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Lisbon, Portugal Variant 104",Portugal,Europe,337097,53.94295331514064,87.92539484855632,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Bangkok, Thailand Variant 105",Thailand,Asia,8914702,63.10308746119608,84.97841905394978,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 106",Mexico,North America,8158854,59.36425129493079,76.6317109899361,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 107",Thailand,Asia,12405674,33.71109816425485,84.3624372329937,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 108",Vietnam,Asia,8700104,35.618226245722944,81.7093052760375,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 109",Thailand,Asia,6750787,45.26160652929084,77.9277386456086,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 110",Mexico,North America,9503858,37.32702646889424,62.745133687794564,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 111",Mexico,North America,5959403,44.03876975261932,69.82002294011379,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Lisbon, Portugal Variant 112",Portugal,Europe,311458,64.06565929083,90.1449121253054,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Hanoi, Vietnam Variant 113",Vietnam,Asia,12039586,36.379501185955064,81.47499941748518,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 114",Mexico,North America,13456975,39.603334807266805,62.56861485024853,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 115",Vietnam,Asia,11920797,71.32924436929852,71.97197263546617,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 116",Hungary,Europe,2210851,52.80843980286938,93.13860438569588,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Lisbon, Portugal Variant 117",Portugal,Europe,670704,56.39939144876925,91.7842058927646,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Budapest, Hungary Variant 118",Hungary,Europe,1475968,35.20700189624212,90.73955128058768,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 119",Vietnam,Asia,8722356,39.78098185816845,83.82407074841466,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 120",Hungary,Europe,2617222,57.91861762000015,91.49732485574123,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 121",Thailand,Asia,13621882,67.18850490404822,76.56446653734875,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 122",Vietnam,Asia,10893500,50.237602174456796,82.35710746900472,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 123",Mexico,North America,12980998,57.65886298059333,78.84558350131643,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 124",Vietnam,Asia,4332903,48.26798909889781,89.14504801674634,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Budapest, Hungary Variant 125",Hungary,Europe,2267457,61.21571889856051,85.15194831978182,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 126",Vietnam,Asia,11836220,45.18780304316449,84.26855940128097,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 127",Vietnam,Asia,7920363,47.552733874135626,86.22948357747934,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Lisbon, Portugal Variant 128",Portugal,Europe,501161,91.73510970396478,93.78416865578049,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Mexico City, Mexico Variant 129",Mexico,North America,9313790,82.15946572312882,68.65140734221332,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 130",Mexico,North America,12842829,33.00389281499446,61.43780271217843,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 131",Vietnam,Asia,10523270,46.63061067429416,80.96135388872631,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 132",Vietnam,Asia,4052513,31.153533793053967,85.81544499106516,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Mexico City, Mexico Variant 133",Mexico,North America,7477545,63.85458958900338,73.94567012573339,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 134",Hungary,Europe,929522,55.79000083611062,92.3977181040582,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,False,True,False
+"Budapest, Hungary Variant 135",Hungary,Europe,1504469,48.73282775410035,91.31196736191379,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 136",Thailand,Asia,13631079,62.09266110968739,70.80217973311908,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 137",Hungary,Europe,885926,56.80583206608363,87.72619358390833,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,False,True,False
+"Mexico City, Mexico Variant 138",Mexico,North America,10256231,54.7347874075094,65.5906267438614,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 139",Vietnam,Asia,7305835,43.0895231005297,78.25780164086505,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 140",Mexico,North America,10426483,72.25117332258571,73.36030259546884,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 141",Hungary,Europe,2549361,36.063853330462145,88.06646853686469,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Bangkok, Thailand Variant 142",Thailand,Asia,10545579,56.59245668432405,82.6878506881328,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Hanoi, Vietnam Variant 143",Vietnam,Asia,5196412,54.81314127998781,87.17855869649419,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+"Hanoi, Vietnam Variant 144",Vietnam,Asia,10980829,30.0,77.2122514438036,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,False,False
+"Mexico City, Mexico Variant 145",Mexico,North America,4807838,66.50296026301393,71.39921330498804,Temperate,"['Museums', 'Street food', 'Markets']",Budget,False,False,True,False,False
+"Bangkok, Thailand Variant 146",Thailand,Asia,12019477,50.599326302663286,79.38688468979096,Tropical,"['Street food', 'Temples', 'Markets']",Budget,False,False,True,False,False
+"Budapest, Hungary Variant 147",Hungary,Europe,1605044,47.98292401875125,89.91794234986637,Continental,"['Thermal baths', 'Historic sites', 'Nightlife']",Budget,False,False,True,True,False
+"Lisbon, Portugal Variant 148",Portugal,Europe,548904,58.51086118727501,89.94546246919526,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Lisbon, Portugal Variant 149",Portugal,Europe,375046,73.43372622157058,91.79724537997518,Mediterranean,"['Historic trams', 'Beaches', 'Fado music']",Budget,True,False,False,True,False
+"Hanoi, Vietnam Variant 150",Vietnam,Asia,5177722,37.61197131269778,85.44958166282584,Tropical,"['Street food', 'Temples', 'Motorbike tours']",Budget,False,False,True,True,False
+Monaco Variant 1,Monaco,Europe,24719,144.75911602065406,95.76177436016862,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 2",USA,North America,30683,147.06817429313733,92.65128078120975,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 3",UAE,Asia,1874319,138.25098264667633,86.6643489214455,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 4",Italy,Europe,20032,118.30550762516633,90.74798739036777,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 5",UAE,Asia,4472573,140.27421535338775,87.68139811510144,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 6",Switzerland,Europe,4669,157.73739128826247,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 7",USA,North America,39954,147.38080374909651,88.55444739443884,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 8",UAE,Asia,4010047,139.6539748459117,97.18065360903108,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 9",UAE,Asia,2592981,133.8225493914492,86.98011463179631,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 10",UAE,Asia,2658311,132.03302943569074,89.57658482163708,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 11",USA,North America,50981,139.9649200799146,83.14998016245478,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Beverly Hills, USA Variant 12",USA,North America,46437,130.03767943777478,87.69228363059976,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 13",Switzerland,Europe,4349,172.35121821948528,95.39954009527804,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 14,Monaco,Europe,27767,146.2940947692755,100.0,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 15",UAE,Asia,4317777,136.7288621631745,90.1779177976931,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 16",USA,North America,42112,150.75175935668457,81.15647728220166,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Capri, Italy Variant 17",Italy,Europe,16550,144.67203710812493,85.03820856754743,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 18",Italy,Europe,11023,114.55885997885807,89.18603546963853,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 19,Monaco,Europe,40708,152.98377452601179,91.82546540128793,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 20",Italy,Europe,12307,117.71400084659982,85.02825312695744,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 21",UAE,Asia,4117783,136.59031348872404,89.622448547658,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 22",USA,North America,17337,145.3806172018181,87.79159598805053,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 23",USA,North America,30520,137.3100549269666,95.82585966264439,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 24",UAE,Asia,3401937,127.62304875310359,91.96117382097616,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 25",Italy,Europe,11785,111.53388290866671,93.65623253335202,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 26",UAE,Asia,2903763,131.64760841236517,91.25443850928009,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 27",Switzerland,Europe,2617,161.7334166437041,98.2197659895425,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Dubai, UAE Variant 28",UAE,Asia,2635301,125.28140405566536,89.0123508952227,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 29",Switzerland,Europe,6050,161.50134634006218,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Capri, Italy Variant 30",Italy,Europe,17464,113.0495633985026,89.79415261543726,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 31,Monaco,Europe,58118,151.87802547891087,87.03141492324484,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 32",USA,North America,35512,127.3983523482742,84.91819295980261,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Beverly Hills, USA Variant 33",USA,North America,38070,128.62858619463776,83.30297108099741,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Capri, Italy Variant 34",Italy,Europe,18355,107.0187311494537,97.89053403955756,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 35",USA,North America,38855,152.43183437214358,83.50593405982549,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 36",UAE,Asia,4630560,126.80152476745155,91.7587899612437,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 37",UAE,Asia,4765351,114.29006644325328,90.92173969188916,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 38",UAE,Asia,4856378,113.92338972881942,91.92370289447862,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 39",Italy,Europe,20286,121.07695005646782,92.05893145522934,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 40,Monaco,Europe,40827,148.29820333493447,88.4296634573298,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 41",Switzerland,Europe,3328,145.76042847549854,95.66673835382792,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 42",Switzerland,Europe,5871,136.24333988907384,99.99124687314975,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 43",USA,North America,49661,140.47961445981548,89.65921931629258,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 44",Switzerland,Europe,4794,151.77568422745136,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Dubai, UAE Variant 45",UAE,Asia,4863711,134.25887206193036,91.09573888707877,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 46",Italy,Europe,18959,112.70920836897301,95.2395648456529,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 47",UAE,Asia,3191879,135.62316620623258,93.08631723929093,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 48",USA,North America,17411,127.49592266030282,91.02257663177683,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 49",USA,North America,23048,153.87644307057658,88.33047779827886,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 50",Italy,Europe,10441,128.83861203453074,88.91113208804056,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 51",Italy,Europe,8659,112.42007777481327,82.16825133517953,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+"St. Moritz, Switzerland Variant 52",Switzerland,Europe,7274,194.95877789600098,89.68297020786656,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Dubai, UAE Variant 53",UAE,Asia,3782162,129.15437000856193,87.638608639062,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+Monaco Variant 54,Monaco,Europe,33427,143.15370174239996,98.95312799581384,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 55",USA,North America,36510,151.26200087189142,86.63151951883808,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 56",UAE,Asia,2303696,114.73729003277788,91.16287788704281,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 57",UAE,Asia,2427281,119.14543923103784,94.54210521447291,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 58",USA,North America,36775,159.76440584515484,80.17879194144474,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"St. Moritz, Switzerland Variant 59",Switzerland,Europe,4131,158.18224724117067,97.86670711856777,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 60,Monaco,Europe,54309,164.11050901059224,92.9729499619311,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+Monaco Variant 61,Monaco,Europe,54166,135.81291462452526,96.06822940756236,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 62",UAE,Asia,2650458,125.69900796238055,91.43177657750185,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 63",UAE,Asia,2879163,136.77159712065787,89.17318504613634,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 64",UAE,Asia,3029251,134.3673855173351,93.02147377480848,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 65",Italy,Europe,17174,113.47042008742189,96.06690699952497,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 66",USA,North America,22154,141.0947060404729,93.26264470674832,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 67",USA,North America,31457,146.90236800380274,75.2081580837145,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Capri, Italy Variant 68",Italy,Europe,17123,114.17888406209572,87.05980710770562,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 69",Italy,Europe,11255,126.79373282956503,84.25602982420672,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 70",UAE,Asia,4491604,112.74193271209404,87.61217673832172,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 71",Italy,Europe,16976,115.35595737690612,92.31030446625948,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 72",Switzerland,Europe,7497,146.2327029749637,94.67889451283386,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Capri, Italy Variant 73",Italy,Europe,14594,116.46504553798313,84.80915426456534,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+Monaco Variant 74,Monaco,Europe,47163,154.80304653013297,92.15308149925936,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 75",UAE,Asia,2561028,126.75226526720824,100.0,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 76",UAE,Asia,3669275,140.5194761772292,86.00969686342793,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 77",Italy,Europe,14841,127.13061180926604,94.80069253239873,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 78",Switzerland,Europe,4346,170.81942059740848,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 79",Switzerland,Europe,6517,155.8222020256822,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 80,Monaco,Europe,50975,144.41698246053969,89.49922883514152,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 81",USA,North America,50269,144.39501230620226,91.89468251756057,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 82",USA,North America,39815,156.34134993488868,77.28316337931321,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 83",UAE,Asia,2933004,134.5418316718984,88.32633376220204,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Beverly Hills, USA Variant 84",USA,North America,30068,139.39711008608387,90.2739758482119,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 85",USA,North America,36005,158.8229223383419,88.04965509866635,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 86",UAE,Asia,4886694,130.07063158628176,87.69839430263276,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 87",Switzerland,Europe,4911,164.2054510922812,95.48522231007841,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Dubai, UAE Variant 88",UAE,Asia,2189377,118.82858673123489,85.93952557101211,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 89",Switzerland,Europe,5007,157.94851771002132,94.6479555373429,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 90",Switzerland,Europe,6753,160.27054040688952,97.50930353189926,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 91",USA,North America,39916,140.6974684884105,84.80117736277933,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"Capri, Italy Variant 92",Italy,Europe,11294,132.49780701403606,82.42452328522175,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 93",UAE,Asia,3099629,132.6464400512129,95.74060719550323,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 94",Switzerland,Europe,4279,157.54150021022002,93.92881690725652,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Capri, Italy Variant 95",Italy,Europe,8009,114.96919460895344,83.74965755396804,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 96",UAE,Asia,3803117,141.17398815902462,98.24249614946463,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 97",Switzerland,Europe,6426,164.2447309424791,96.15953267017377,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Dubai, UAE Variant 98",UAE,Asia,4931108,130.32796995411587,87.20752332649965,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 99",UAE,Asia,2008997,133.8817025766799,91.19363510184806,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 100",UAE,Asia,4123394,123.57242697051441,99.50760535210367,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 101",Switzerland,Europe,5098,161.73676646138526,93.49331404198642,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 102,Monaco,Europe,38338,140.78140186874685,89.98021313959251,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+Monaco Variant 103,Monaco,Europe,46401,152.85689800267198,89.66639445586893,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 104",Switzerland,Europe,2877,159.16615724725708,97.9284629487053,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 105",USA,North America,37367,154.98582572011867,94.23878417038108,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 106",Italy,Europe,7211,131.89911397241167,95.06837870271931,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 107",UAE,Asia,3416793,151.55332748190617,86.11218937263656,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 108",Switzerland,Europe,6182,157.8508964484992,98.38396724662644,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 109",USA,North America,40838,131.354342727217,96.47694229225982,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 110",UAE,Asia,2949978,130.69548087757244,94.61294250810053,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 111",Switzerland,Europe,7287,171.24353359870503,95.3296138451003,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 112,Monaco,Europe,48336,156.46297369403572,89.41165036494003,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+Monaco Variant 113,Monaco,Europe,19824,141.3560892908582,94.2953604286119,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 114",Switzerland,Europe,2921,163.50341779228398,98.4892804710301,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 115",USA,North America,31769,157.4958390420542,94.90727039345244,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 116",UAE,Asia,3899520,120.42291751110261,94.24980783076944,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 117",UAE,Asia,4391489,129.25872893569957,89.78925387088034,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Capri, Italy Variant 118",Italy,Europe,8080,117.53690244633194,93.48888450505606,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 119,Monaco,Europe,48076,166.14976818911148,99.98546877747268,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+Monaco Variant 120,Monaco,Europe,34015,157.68179564462847,93.33414167584536,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"St. Moritz, Switzerland Variant 121",Switzerland,Europe,4967,169.1674491905922,93.53634267755658,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 122",Switzerland,Europe,5583,168.69156064389273,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 123",Switzerland,Europe,6353,146.23957736210644,95.30199182755817,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 124",Switzerland,Europe,5191,152.14013967365017,90.09477698423113,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Capri, Italy Variant 125",Italy,Europe,16330,117.69133626155231,97.26630331660517,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 126",Italy,Europe,19232,130.54666578768763,92.18040977563625,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 127",USA,North America,35190,143.8286229162145,85.60287629142034,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+Monaco Variant 128,Monaco,Europe,51664,145.20948942638248,86.13247833025193,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 129",UAE,Asia,2335359,113.35390264966233,99.13071399391555,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 130",Switzerland,Europe,4955,155.06877177600228,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+Monaco Variant 131,Monaco,Europe,35442,164.87727035658267,95.42640658982869,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 132",USA,North America,39583,141.35718590547998,88.82455071713278,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 133",USA,North America,32170,138.95875845775478,91.8987774814441,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+Monaco Variant 134,Monaco,Europe,40386,136.48925633791978,88.38771021628214,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Beverly Hills, USA Variant 135",USA,North America,46669,135.07250447220048,90.84707133450517,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 136",Italy,Europe,11574,120.85893006293331,78.90349813626233,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,False,True
+"Dubai, UAE Variant 137",UAE,Asia,2726786,125.25302230362941,96.1655925769992,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"Dubai, UAE Variant 138",UAE,Asia,4526218,139.2180150197725,93.41343943604606,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 139",Switzerland,Europe,4572,136.78369593300084,91.67150141322279,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 140",USA,North America,24806,141.12104946824516,96.72319586629341,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,True,True
+"Dubai, UAE Variant 141",UAE,Asia,2815460,145.72242166519652,88.09791576390985,Desert,"['Luxury shopping', 'Desert safaris', 'Fine dining']",Luxury,False,False,True,True,True
+"St. Moritz, Switzerland Variant 142",Switzerland,Europe,3707,152.2034371953929,95.56053496779353,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Beverly Hills, USA Variant 143",USA,North America,21026,133.30613947228866,82.89797718083882,Mediterranean,"['Celebrity spotting', 'Luxury shopping', 'Spas']",Luxury,False,False,False,False,True
+"St. Moritz, Switzerland Variant 144",Switzerland,Europe,4178,164.48689768338906,100.0,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 145",Switzerland,Europe,5284,144.1401668776204,87.60037807430477,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"St. Moritz, Switzerland Variant 146",Switzerland,Europe,5894,174.89749607320582,94.41123327477366,Alpine,"['Skiing', 'Luxury spas', 'Fine dining']",Luxury,False,True,False,True,True
+"Capri, Italy Variant 147",Italy,Europe,14001,130.1522809166507,88.79384466851324,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 148,Monaco,Europe,20363,151.33151211424286,96.50710257758384,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Capri, Italy Variant 149",Italy,Europe,8640,111.04653677636976,87.9594958041989,Mediterranean,"['Luxury villas', 'Boat tours', 'Fine dining']",Luxury,False,False,False,True,True
+Monaco Variant 150,Monaco,Europe,39479,152.91761442533547,92.87507313311676,Mediterranean,"['Casino', 'Yachting', 'Luxury resorts']",Luxury,False,False,False,True,True
+"Sydney, Australia Variant 1",Australia,Oceania,3741328,73.15211952882507,91.2978678074011,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Orlando, USA Variant 2",USA,North America,341817,94.1886474740898,89.31939910834419,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Sydney, Australia Variant 3",Australia,Oceania,5634323,114.64177238752437,94.98429386732904,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 4",Netherlands,Europe,1243407,104.15417021230274,93.3668896115825,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,True
+"Orlando, USA Variant 5",USA,North America,296824,87.33096445838734,86.68374524440394,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 6",Netherlands,Europe,750265,92.61087158015971,95.15077818279939,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 7",Australia,Oceania,7015020,95.8499841766488,77.3514189469727,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,False
+"Sydney, Australia Variant 8",Australia,Oceania,3058116,112.37438134684139,87.71349172456605,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 9",Australia,Oceania,4148044,86.61840931376878,89.56400675618426,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Amsterdam, Netherlands Variant 10",Netherlands,Europe,1213135,98.60679175692997,88.17065990755789,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Vancouver, Canada Variant 11",Canada,North America,551545,92.05220715700257,98.73089131813312,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 12",South Africa,Africa,4593140,59.2212818862281,71.55641166788543,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 13",Australia,Oceania,6409641,85.47204104111654,83.01421000890961,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,False
+"Sydney, Australia Variant 14",Australia,Oceania,6144547,106.51521991339506,84.31157164787592,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,True
+"Orlando, USA Variant 15",USA,North America,268585,82.36875611732341,86.2446454765833,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Orlando, USA Variant 16",USA,North America,332491,104.35435785839351,73.95324197088328,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,True
+"Cape Town, South Africa Variant 17",South Africa,Africa,3687330,81.26296559324147,78.86627160658524,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 18",Australia,Oceania,6221188,114.0336997012519,93.48951636269514,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 19",Netherlands,Europe,625477,97.96575545140762,90.31592397633793,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Orlando, USA Variant 20",USA,North America,233211,77.38350894160735,94.94904552121761,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 21",Canada,North America,875150,113.64625056823078,97.54964797940168,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Vancouver, Canada Variant 22",Canada,North America,508349,111.4053357089237,88.7221050133521,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Sydney, Australia Variant 23",Australia,Oceania,3640700,110.33925143085558,91.42672420221626,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 24",Netherlands,Europe,1101909,98.7928087182265,96.04537086236641,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Vancouver, Canada Variant 25",Canada,North America,753578,106.558850841927,89.89530557153857,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Vancouver, Canada Variant 26",Canada,North America,918853,110.51155044595704,81.16809578292111,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,False,True
+"Orlando, USA Variant 27",USA,North America,235004,91.71839339793532,87.76625609992392,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Orlando, USA Variant 28",USA,North America,316407,88.53963394258201,91.45188375629112,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 29",South Africa,Africa,5007973,76.14025647258481,77.6419640593386,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Amsterdam, Netherlands Variant 30",Netherlands,Europe,1146296,88.58541234568595,90.27507030691048,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Orlando, USA Variant 31",USA,North America,296497,84.38392964961837,77.18155157327287,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Sydney, Australia Variant 32",Australia,Oceania,7034824,109.80093535070105,91.7794468877716,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Orlando, USA Variant 33",USA,North America,429962,86.70552213652908,88.65935352144147,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 34",South Africa,Africa,4061251,63.30524374910857,76.37610644378915,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 35",Australia,Oceania,6973134,124.494597989581,84.11848371538366,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,True
+"Cape Town, South Africa Variant 36",South Africa,Africa,3548118,67.04081578983116,80.49688694091226,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Amsterdam, Netherlands Variant 37",Netherlands,Europe,1038907,101.22069990306049,94.64466659767704,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,True
+"Amsterdam, Netherlands Variant 38",Netherlands,Europe,485044,98.86808520689203,93.45490212592983,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 39",Australia,Oceania,7640853,82.48630043432144,82.36214753095337,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,False
+"Sydney, Australia Variant 40",Australia,Oceania,5742008,117.6877178325942,87.53928242401999,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 41",Australia,Oceania,5730798,110.5459351622706,90.99451331075164,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 42",Australia,Oceania,7591589,103.67649292991422,79.49986746174189,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,True
+"Sydney, Australia Variant 43",Australia,Oceania,5148843,96.98963889879096,75.35524317649451,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,False,False
+"Orlando, USA Variant 44",USA,North America,295628,90.06510436800896,88.57681973400317,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Sydney, Australia Variant 45",Australia,Oceania,7080003,109.38221997655732,88.22531274283858,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 46",Australia,Oceania,3545000,119.62587190530795,90.01847835923924,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Orlando, USA Variant 47",USA,North America,353290,82.57515767461616,82.57347082316066,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Amsterdam, Netherlands Variant 48",Netherlands,Europe,822444,81.79176226121042,99.18141825397993,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 49",Canada,North America,327061,100.23079004002395,98.65433590183584,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Sydney, Australia Variant 50",Australia,Oceania,5065411,119.05941348457566,87.68416193463604,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 51",Australia,Oceania,6050538,111.84172527660145,91.49887281860782,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Vancouver, Canada Variant 52",Canada,North America,895423,112.5547569831549,99.86509862607429,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Sydney, Australia Variant 53",Australia,Oceania,2932167,99.26052434391607,87.74170261920189,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Orlando, USA Variant 54",USA,North America,340436,78.69384665062474,88.11355611950134,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 55",South Africa,Africa,6402222,59.8697049038985,82.46008934680528,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Orlando, USA Variant 56",USA,North America,460509,92.88653930807484,85.37388133960984,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 57",South Africa,Africa,2439103,64.83570356112428,74.01766708285952,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Amsterdam, Netherlands Variant 58",Netherlands,Europe,1185276,92.9414056911966,84.26710826729881,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,False,False
+"Vancouver, Canada Variant 59",Canada,North America,577217,94.03972594680647,85.63852632688007,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 60",Canada,North America,484194,77.97786733919989,89.68592156830245,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 61",Australia,Oceania,4389060,89.85065193690359,86.19406807592762,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Amsterdam, Netherlands Variant 62",Netherlands,Europe,1193956,80.85024128123952,81.50052860351838,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,False,False
+"Cape Town, South Africa Variant 63",South Africa,Africa,2439843,75.95029465835565,72.2128847344584,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 64",Canada,North America,530866,94.68560829625224,87.75785682904592,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 65",Australia,Oceania,5648825,96.40370327547538,91.50553669595871,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Vancouver, Canada Variant 66",Canada,North America,633470,98.49800024567908,86.97972701578995,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 67",Netherlands,Europe,889050,94.1940025070324,83.83471971499621,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,False,False
+"Vancouver, Canada Variant 68",Canada,North America,833100,93.83234084204753,88.82221079297798,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Orlando, USA Variant 69",USA,North America,212448,96.29914862046294,74.80284250840035,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Amsterdam, Netherlands Variant 70",Netherlands,Europe,1149344,90.85878832054455,92.02945114273913,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Cape Town, South Africa Variant 71",South Africa,Africa,6459749,67.21116605849244,79.2257898559216,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 72",Australia,Oceania,5432901,121.05834825348488,88.03439405400047,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 73",Netherlands,Europe,884862,90.75551296857519,93.17912619208784,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 74",Australia,Oceania,6904101,103.7348118773216,86.4560745987673,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 75",Australia,Oceania,6706118,97.56616020624982,88.5008090186256,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Orlando, USA Variant 76",USA,North America,405337,107.29114768069533,85.37139622041424,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,True
+"Amsterdam, Netherlands Variant 77",Netherlands,Europe,890662,82.66731173703123,91.30361697231875,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Orlando, USA Variant 78",USA,North America,381883,83.30268167511606,82.99465666538457,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Amsterdam, Netherlands Variant 79",Netherlands,Europe,598772,94.69420980496533,93.86516266912854,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 80",Canada,North America,884010,108.81783897451939,100.0,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Orlando, USA Variant 81",USA,North America,395429,86.9519591048226,88.69457735521841,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Sydney, Australia Variant 82",Australia,Oceania,7145281,94.68785705392402,92.4193832559402,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Orlando, USA Variant 83",USA,North America,161548,91.35402482483612,76.65780623048686,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Amsterdam, Netherlands Variant 84",Netherlands,Europe,674702,97.96184804731014,89.8760847857858,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 85",Netherlands,Europe,788877,87.32578999928324,83.61807633277348,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,False,False
+"Orlando, USA Variant 86",USA,North America,261812,89.68941067129099,80.45158291509082,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Vancouver, Canada Variant 87",Canada,North America,912556,96.42092245620346,94.87350630832674,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 88",Australia,Oceania,3921035,99.30421791078774,94.4499378110855,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Orlando, USA Variant 89",USA,North America,391391,98.64529908540796,92.59443290726331,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 90",Canada,North America,638140,98.5973676435746,92.84353130547602,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Vancouver, Canada Variant 91",Canada,North America,565655,91.14978188287137,93.91494492370464,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 92",South Africa,Africa,5477168,71.3141934404135,72.96261414292569,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 93",Australia,Oceania,5923565,100.21280437104063,94.43366179777271,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Cape Town, South Africa Variant 94",South Africa,Africa,2386403,70.5633628681212,72.43927133825933,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Amsterdam, Netherlands Variant 95",Netherlands,Europe,1285545,87.22609924141095,91.46662345166301,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Amsterdam, Netherlands Variant 96",Netherlands,Europe,1102138,97.49178671713898,83.53253383056196,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,False,False
+"Sydney, Australia Variant 97",Australia,Oceania,3577611,112.21235660066961,87.56420988677147,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Sydney, Australia Variant 98",Australia,Oceania,6644088,103.25014136256542,87.76878662890124,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Vancouver, Canada Variant 99",Canada,North America,741757,102.42859479577231,92.56934700154842,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Vancouver, Canada Variant 100",Canada,North America,515371,90.67876290675946,99.82309870580374,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Orlando, USA Variant 101",USA,North America,240768,73.26515200323885,81.71657604944944,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Cape Town, South Africa Variant 102",South Africa,Africa,6338492,75.05404273430997,75.97922623505343,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Amsterdam, Netherlands Variant 103",Netherlands,Europe,987563,84.04566542705413,90.73036756568555,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 104",Netherlands,Europe,1213298,86.10759171771676,92.77650279118876,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,False
+"Sydney, Australia Variant 105",Australia,Oceania,4460859,119.42668124161504,87.57971490336101,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Orlando, USA Variant 106",USA,North America,371008,79.11680512970946,78.60314752073577,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Sydney, Australia Variant 107",Australia,Oceania,7168725,103.28760300342846,90.1390145786997,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Vancouver, Canada Variant 108",Canada,North America,900037,98.2405702822156,86.26154305092166,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 109",South Africa,Africa,4105900,53.50966564650693,75.04940304914882,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 110",Canada,North America,885002,81.86384853920933,96.26904281154535,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 111",Australia,Oceania,7459959,105.66085982744214,93.49506810006503,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Orlando, USA Variant 112",USA,North America,155901,96.35446028314358,79.41290913243301,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Vancouver, Canada Variant 113",Canada,North America,766785,91.16309580419016,96.77006907923654,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 114",Netherlands,Europe,1268257,106.35620147182944,82.46853243794183,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,False,True
+"Orlando, USA Variant 115",USA,North America,289136,91.47540911865329,85.38494209862446,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 116",South Africa,Africa,4033226,72.29314128434648,83.56333856419285,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Cape Town, South Africa Variant 117",South Africa,Africa,4305858,77.80342811616447,66.87601004948505,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Orlando, USA Variant 118",USA,North America,204353,91.22843438540198,79.95667999416585,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,False,False
+"Orlando, USA Variant 119",USA,North America,167703,80.8761254748761,85.94233864533139,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Sydney, Australia Variant 120",Australia,Oceania,5665807,107.32492102779803,91.44361831412512,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Vancouver, Canada Variant 121",Canada,North America,668165,103.14169483332353,88.4224159037084,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,True
+"Vancouver, Canada Variant 122",Canada,North America,678420,84.7190359217807,91.51440899462429,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 123",South Africa,Africa,4705985,73.22466901001746,73.88466482259629,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 124",Canada,North America,780486,95.72036861283745,90.93895515049424,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 125",Netherlands,Europe,650755,97.9298820833498,89.8880725316447,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 126",South Africa,Africa,3236460,83.68129807708867,73.21854852697608,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 127",Canada,North America,586677,90.69285299539709,91.26970057476416,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 128",Netherlands,Europe,474525,79.95124007170874,88.62991977224455,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 129",South Africa,Africa,4831289,74.86036289417638,67.26348005530818,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 130",Canada,North America,833837,94.06363811260829,98.62898323771095,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 131",South Africa,Africa,5611771,58.1569504898088,75.98663175307439,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Orlando, USA Variant 132",USA,North America,264000,91.32918641750274,89.17739610911445,Subtropical,"['Theme parks', 'Family resorts', 'Water parks']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 133",South Africa,Africa,4668660,77.50536115435305,78.4911041806774,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Cape Town, South Africa Variant 134",South Africa,Africa,3054318,68.57992386970473,71.20573934481182,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 135",Canada,North America,335575,70.1167264658701,88.70875793833076,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Sydney, Australia Variant 136",Australia,Oceania,6142847,100.58984221589597,92.23436250401349,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Cape Town, South Africa Variant 137",South Africa,Africa,3139912,70.75920534259487,66.94964276292812,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 138",Australia,Oceania,2889942,110.31867982534831,96.72901633681434,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 139",Netherlands,Europe,945597,106.59074064955898,86.31872630659464,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,True
+"Cape Town, South Africa Variant 140",South Africa,Africa,4068872,85.96048491395555,73.21630718370486,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 141",Canada,North America,653803,85.96573583631056,88.45866130298494,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,True,False
+"Amsterdam, Netherlands Variant 142",Netherlands,Europe,950695,90.61740882621439,85.30920499396636,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,False,True,False
+"Cape Town, South Africa Variant 143",South Africa,Africa,5248267,67.15233022462805,71.8425763365735,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Sydney, Australia Variant 144",Australia,Oceania,4049565,108.94049597324795,87.51644588034796,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,True
+"Amsterdam, Netherlands Variant 145",Netherlands,Europe,1274778,108.70409693983866,95.14728901022004,Temperate,"['Canals', 'Museums', 'Bike tours']",Family,False,False,True,True,True
+"Sydney, Australia Variant 146",Australia,Oceania,3141379,97.80576074076492,89.5554014974062,Temperate,"['Beaches', 'Zoo', 'Harbor cruises']",Family,True,False,True,True,False
+"Cape Town, South Africa Variant 147",South Africa,Africa,4026721,77.75155494034783,77.7652004292618,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Cape Town, South Africa Variant 148",South Africa,Africa,5022484,66.03255021005626,73.67112151772861,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Cape Town, South Africa Variant 149",South Africa,Africa,6137118,76.54676617482313,72.63367476583475,Mediterranean,"['Beaches', 'Safari', 'Table Mountain']",Family,True,False,True,False,False
+"Vancouver, Canada Variant 150",Canada,North America,638880,101.72943204495039,83.17702045361476,Temperate,"['Outdoor activities', 'Aquariums', 'Family tours']",Family,False,False,False,False,True
